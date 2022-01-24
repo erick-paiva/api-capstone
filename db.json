@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "email": "kenzinho@mail.com",
+      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
+      "name": "Kenzinho",
+      "age": 38,
+      "id": 1
+    },
+    {
+      "email": "123skatesk8@mail.com",
+      "password": "$2a$10$PSx/g0mUWswHLfi6S8gW1O8AawJz7ppiV/OQwM3ZRlvFZXXIyOKO.",
+      "name": "Erick",
+      "age": 18,
+      "id": 2
+    },
+    {
+      "email": "123skatesk88@mail.com",
+      "password": "$2a$10$FoOkD3hjeAy99subX26g.OmgVGPtHfZx45VhznN0dvFx5jLaOjZ6y",
+      "name": "Erick",
+      "age": 18,
+      "id": 3
+    }
+  ],
+  "courses": [
+    {
+      "nameOfCourse": "Kenzie Academy",
+      "duration": "12 months",
+      "userId": 2,
+      "id": 1
+    }
+  ],
+  "programmingLanguages": [
+    {
+      "languageName": "JS",
+      "id": 2
+    },
+    {
+      "languageName": "python",
+      "id": 3
+    },
+    {
+      "languageName": "python",
+      "nivel": "junior",
+      "id": 4
+    }
+  ]
+}
