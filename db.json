@@ -22,27 +22,34 @@
       "id": 3
     }
   ],
-  "courses": [
+  "allThese": [
     {
-      "nameOfCourse": "Kenzie Academy",
-      "duration": "12 months",
-      "userId": 2,
-      "id": 1
-    }
-  ],
-  "programmingLanguages": [
-    {
-      "languageName": "JS",
-      "id": 2
-    },
-    {
-      "languageName": "python",
-      "id": 3
-    },
-    {
-      "languageName": "python",
-      "nivel": "junior",
-      "id": 4
+      "id": 1,
+      "question": {
+        "title": "duvida em redux",
+        "likes": 0,
+        "creator": {
+          "email": "123skatesk8@mail.com",
+          "password": "$2a$10$PSx/g0mUWswHLfi6S8gW1O8AawJz7ppiV/OQwM3ZRlvFZXXIyOKO.",
+          "name": "Erick",
+          "bio": "vivendo e aprendendo",
+          "id": 2
+        },
+        "allComments": [
+          {
+            "comment": {
+              "bodyOfComment": "eu tambem estou com duvida em react",
+              "creator": {
+                "email": "123skatesk8@mail.com",
+                "password": "$2a$10$PSx/g0mUWswHLfi6S8gW1O8AawJz7ppiV/OQwM3ZRlvFZXXIyOKO.",
+                "name": "Erick",
+                "bio": "vivendo e aprendendo",
+                "id": 2
+              }
+            }
+          }
+        ]
+      }
     }
   ]
 }
