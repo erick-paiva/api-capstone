@@ -1,55 +1,68 @@
 {
   "users": [
     {
-      "email": "kenzinho@mail.com",
-      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
+      "id": 1,
+      "email": "alunoKenzie@gmail.com",
+      "coach": false,
+      "password": "123456",
       "name": "Kenzinho",
-      "age": 38,
-      "id": 1
+      "bio": "Aluno Q2 - Julho-21",
+      "module": "M2"
     },
     {
-      "email": "123skatesk8@mail.com",
-      "password": "$2a$10$PSx/g0mUWswHLfi6S8gW1O8AawJz7ppiV/OQwM3ZRlvFZXXIyOKO.",
-      "name": "Erick",
-      "age": 18,
-      "id": 2
+      "id": 2,
+      "email": "coachKenzie@gmail.com",
+      "coach": true,
+      "password": "123456",
+      "name": "Kenzinho",
+      "bio": "Aluno Q3 - Coach do Q2",
+      "module": "Q3"
     },
     {
-      "email": "123skatesk88@mail.com",
-      "password": "$2a$10$FoOkD3hjeAy99subX26g.OmgVGPtHfZx45VhznN0dvFx5jLaOjZ6y",
-      "name": "Erick",
-      "age": 18,
-      "id": 3
+      "id": 3,
+      "email": "alunoKenzie2@gmail.com",
+      "coach": false,
+      "password": "123456",
+      "name": "Kenzinho2",
+      "bio": "Aluno Q2 - Julho-21",
+      "module": "M2"
     }
   ],
-  "allThese": [
+  "questions": [
     {
       "id": 1,
+      "userId": 1,
+      "date": { "day": 25, "month": 1, "year": 2022, "hour": 8, "minutes": 21 },
       "question": {
-        "title": "duvida em redux",
-        "likes": 0,
-        "creator": {
-          "email": "123skatesk8@mail.com",
-          "password": "$2a$10$PSx/g0mUWswHLfi6S8gW1O8AawJz7ppiV/OQwM3ZRlvFZXXIyOKO.",
-          "name": "Erick",
-          "bio": "vivendo e aprendendo",
-          "id": 2
-        },
-        "allComments": [
-          {
-            "comment": {
-              "bodyOfComment": "eu tambem estou com duvida em react",
-              "creator": {
-                "email": "123skatesk8@mail.com",
-                "password": "$2a$10$PSx/g0mUWswHLfi6S8gW1O8AawJz7ppiV/OQwM3ZRlvFZXXIyOKO.",
-                "name": "Erick",
-                "bio": "vivendo e aprendendo",
-                "id": 2
-              }
-            }
-          }
-        ]
+        "title": "Erro no reduce",
+        "body": "eu tente somar o total do meu carrinho na entrega X, mas da um erro no console chamado NAN",
+        "likes": [{"userId": 1},{"userId":3}],
+        "tags": ["JS","REACT","LINUX","NODE JS"]
       }
+    }
+  ],
+  "answers": [
+    {
+      "userId": 2,
+      "postId": 1,
+      "date": {"day": 25, "month": 1, "year": 2022, "hour": 8, "minutes": 21},
+      "title": "Explicando o reduce",
+      "body": "reduce(executa uma logica de redução: mais complexo, mas bem util) Exemplo const array = [{produto”celular”,preco:“300,00”, produto:“notebook”,preco:“1000,00”}] const reduceNoArray = array.reduce((acc,atual) => acc + atual.preco,0) reduceNoArray é : 1300 Explicando: acc (Acumulador) => toda vez que passa sempre pega o valor que tem, mais a logica da função na frente(esta=>acc+atual), ele começa com o primeiro objeto do array, por isso colocamos um 0 de da “,” => falo para iniciar com zero e pegar o proximo(o atual, que na primeira vez é o segundo objeto) atual será será sempre o proximo index do array(neste caso, na primeira vez seria o {produto:notebook …}"
+    }
+        
+  ],
+  "comments": [
+    {
+      "userId": 3,
+      "postId": 1,
+      "date": {
+        "day": 25,
+        "month": 1,
+        "year": 2022,
+        "hour": 8,
+        "minutes": 21
+      },
+      "comment": "explicaçao ta show demais, funcionou certinho. Vou ate dar like!"
     }
   ]
 }
