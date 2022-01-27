@@ -2,29 +2,26 @@
   "users": [
     {
       "id": 1,
-      "email": "alunoKenzie@gmail.com",
+      "email": "alunokenzie@gmail.com",
       "coach": false,
       "password": "123456",
       "name": "Kenzinho",
-      "bio": "Aluno Q2 - Julho-21",
       "module": "M2"
     },
     {
       "id": 2,
-      "email": "coachKenzie@gmail.com",
+      "email": "coachkenzie@gmail.com",
       "coach": true,
       "password": "123456",
       "name": "Kenzinho",
-      "bio": "Aluno Q3 - Coach do Q2",
       "module": "Q3"
     },
     {
       "id": 3,
-      "email": "alunoKenzie2@gmail.com",
+      "email": "alunokenzie2@gmail.com",
       "coach": false,
       "password": "123456",
       "name": "Kenzinho2",
-      "bio": "Aluno Q2 - Julho-21",
       "module": "M2"
     }
   ],
@@ -32,12 +29,30 @@
     {
       "id": 1,
       "userId": 1,
-      "date": { "day": 25, "month": 1, "year": 2022, "hour": 8, "minutes": 21 },
+      "date": {
+        "day": 25,
+        "month": 1,
+        "year": 2022,
+        "hour": 8,
+        "minutes": 21
+      },
       "question": {
         "title": "Erro no reduce",
         "body": "eu tente somar o total do meu carrinho na entrega X, mas da um erro no console chamado NAN",
-        "likes": [{"userId": 1},{"userId":3}],
-        "tags": ["JS","REACT","LINUX","NODE JS"]
+        "likes": [
+          {
+            "userId": 1
+          },
+          {
+            "userId": 3
+          }
+        ],
+        "tags": [
+          "JS",
+          "REACT",
+          "LINUX",
+          "NODE JS"
+        ]
       }
     }
   ],
@@ -45,11 +60,16 @@
     {
       "userId": 2,
       "postId": 1,
-      "date": {"day": 25, "month": 1, "year": 2022, "hour": 8, "minutes": 21},
+      "date": {
+        "day": 25,
+        "month": 1,
+        "year": 2022,
+        "hour": 8,
+        "minutes": 21
+      },
       "title": "Explicando o reduce",
       "body": "reduce(executa uma logica de redução: mais complexo, mas bem util) Exemplo const array = [{produto”celular”,preco:“300,00”, produto:“notebook”,preco:“1000,00”}] const reduceNoArray = array.reduce((acc,atual) => acc + atual.preco,0) reduceNoArray é : 1300 Explicando: acc (Acumulador) => toda vez que passa sempre pega o valor que tem, mais a logica da função na frente(esta=>acc+atual), ele começa com o primeiro objeto do array, por isso colocamos um 0 de da “,” => falo para iniciar com zero e pegar o proximo(o atual, que na primeira vez é o segundo objeto) atual será será sempre o proximo index do array(neste caso, na primeira vez seria o {produto:notebook …}"
     }
-        
   ],
   "comments": [
     {
@@ -62,7 +82,21 @@
         "hour": 8,
         "minutes": 21
       },
-      "comment": "explicaçao ta show demais, funcionou certinho. Vou ate dar like!"
+      "comment": "explicaçao ta show demais, funcionou certinho. Vou ate dar like!",
+      "id": 1
+    },
+    {
+      "userId": 4,
+      "postId": 1,
+      "date": {
+        "day": 25,
+        "month": 1,
+        "year": 2022,
+        "hour": 8,
+        "minutes": 21
+      },
+      "comment": "eu tambem testei outra coisa que deu certo",
+      "id": 2
     }
   ]
 }
