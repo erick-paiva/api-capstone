@@ -1,18 +1,27 @@
  
 <img src="https://kenzie.com.br/images/logoblue.svg" width="200px" />}>
 
-# Entrega CASPS STONE
+# Entrega CAPSTONE
 
 ## Introdução
 
 A api tem um total de **“12”** Endpoints, criada para plataforma onde os usuários que desejam podem cadastrar suas dúvidas e ao mesmo tempo poder acessar as duvidas já solucionadas por outros usuários, além de também poder comentar qualquer duvida postadas por outros usuários e respostas de usuários qualificados a responderem. 
 
-O url base da API e este -> [https://caps-stone-api.herokuapp.com/](https://caps-stone-api.herokuapp.com/)
+**O url base da API:**
+
+ [https://caps-stone-api.herokuapp.com](https://caps-stone-api.herokuapp.com/)
+
+**Os endpoints estão mockados com dados fictícios:**
+
+[Dados mockados](https://www.notion.so/Dados-mockados-8321fb1819cd45c8ba98611191a22790)
 
 ## **Endpoints**
 
 - Registrar ⇒ “/register”
-- 
+- Login ⇒ “/login”
+- Questões ⇒ “/questions”
+- Respostas ⇒ “/answers”
+- Comentários ⇒ “/comments”
 
 ## EndPoint ⇒ Registrar um usuário
 
@@ -111,9 +120,9 @@ Rotas que necessitam de autorização deve ser informado no cabeçalho da requis
 
 Após o usuário estar logado, conseguirá postar duvidas, comentar em duvidas de outros usuários, dar like em qualquer duvida resolvida e em qualquer comentário.
 
-## EndPoint allThese
+## EndPoint questions
 
-`POST /allThese - FORMATO DA REQUISIÇÃO`
+`POST /questions - FORMATO DA REQUISIÇÃO`
 
 Endpoint para postar suas duvidas. Você devera informar os respectivos itens a sua questão:
 
@@ -146,7 +155,7 @@ Caso dê tudo certo, a resposta será assim:
 
 ## Deletando questōes
 
-`DELETE /allThese/:these_id - FORMATO DA REQUISIÇÃO`
+`DELETE /questions/:these_id - FORMATO DA REQUISIÇÃO`
 
 Também é possível deletar uma questão, basta passar como query o id da questão.
 
@@ -158,7 +167,7 @@ Não é necessário um corpo da requisição.
 
 ## EndPoint comentarios.
 
-`POST /allComments - FORMATO DA REQUISIÇÃO`
+`POST /comments - FORMATO DA REQUISIÇÃO`
 
 Endpoint para criar comentários.  
 
@@ -209,7 +218,7 @@ Caso dê tudo certo, a resposta será assim:
 
 ## Deletando comentario.
 
-`DELETE /allComments/:comment_id - FORMATO DA REQUISIÇÃO`
+`DELETE /comments/:comment_id - FORMATO DA REQUISIÇÃO`
 
 Também é possível deletar um comentário, basta passar como query o id do comentário.
 
@@ -222,7 +231,7 @@ Não é necessário um corpo da requisição.
 
 ## EndPoint respostas
 
-`POST /coachesAnswers - FORMATO DA REQUISIÇÃO`
+`POST /answers - FORMATO DA REQUISIÇÃO`
 
 Este endpoint servira para postar respostas das questões.
 
@@ -269,7 +278,7 @@ Caso dê tudo certo, a resposta será assim:
 
 ## Deletando um resposta
 
-`DELETE /coachesAnswers/:answer_id - FORMATO DA REQUISIÇÃO`
+`DELETE /answers/:answer_id - FORMATO DA REQUISIÇÃO`
 
 Também é possível deletar uma resposta, basta passar como query o id da resposta.
 
@@ -284,7 +293,7 @@ Não é necessário um corpo da requisição.
 
 ## Obtendo todas questões
 
-`GET /allThese - FORMATO DA RESPOSTA - STATUS 200`
+`GET /questions - FORMATO DA RESPOSTA - STATUS 200`
 
 ```
 [
@@ -311,7 +320,7 @@ Não é necessário um corpo da requisição.
 
 ## Obtendo todos os comentários:
 
-`GET /allComments - FORMATO DA RESPOSTA - STATUS 200`
+`GET /comments - FORMATO DA RESPOSTA - STATUS 200`
 
 ```
 [
