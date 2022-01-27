@@ -4,7 +4,7 @@
       "id": 1,
       "email": "alunokenzie@gmail.com",
       "coach": false,
-      "password": "123456",
+      "password": "$2a$10$odrMlnvYvWZHHJ2Rv2f/iOq1ZPcaEi5jc3Hs23b7TYVU0IbFNyRRm",
       "name": "Kenzinho",
       "module": "M2"
     },
@@ -12,7 +12,7 @@
       "id": 2,
       "email": "coachkenzie@gmail.com",
       "coach": true,
-      "password": "123456",
+      "password": "$2a$10$odrMlnvYvWZHHJ2Rv2f/iOq1ZPcaEi5jc3Hs23b7TYVU0IbFNyRRm",
       "name": "Kenzinho",
       "module": "Q3"
     },
@@ -20,7 +20,7 @@
       "id": 3,
       "email": "alunokenzie2@gmail.com",
       "coach": false,
-      "password": "123456",
+      "password": "$2a$10$odrMlnvYvWZHHJ2Rv2f/iOq1ZPcaEi5jc3Hs23b7TYVU0IbFNyRRm",
       "name": "Kenzinho2",
       "module": "M2"
     }
