@@ -58,6 +58,7 @@
   ],
   "answers": [
     {
+      "id": 1,
       "userId": 2,
       "postId": 1,
       "date": {
@@ -69,6 +70,7 @@
       },
       "title": "Explicando o reduce",
       "body": "reduce(executa uma logica de redução: mais complexo, mas bem util) Exemplo const array = [{produto”celular”,preco:“300,00”, produto:“notebook”,preco:“1000,00”}] const reduceNoArray = array.reduce((acc,atual) => acc + atual.preco,0) reduceNoArray é : 1300 Explicando: acc (Acumulador) => toda vez que passa sempre pega o valor que tem, mais a logica da função na frente(esta=>acc+atual), ele começa com o primeiro objeto do array, por isso colocamos um 0 de da “,” => falo para iniciar com zero e pegar o proximo(o atual, que na primeira vez é o segundo objeto) atual será será sempre o proximo index do array(neste caso, na primeira vez seria o {produto:notebook …}"
+      
     }
   ],
   "comments": [
