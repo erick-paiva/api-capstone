@@ -105,9 +105,9 @@
       "question": {
         "title": "Erro no reduce",
         "body": "eu tente somar o total do meu carrinho na entrega 2A14, mas da um erro no console chamado NAN",
-        "likes": [{ "userId": 11 }, { "userId": 13 }],
-        "tags": ["JS", "REACT", "NODE JS"]
-      }
+        "likes": [{ "userId": 11 }, { "userId": 13 }]
+      },
+      "tags": ["JS", "REACT", "NODE JS"]
     },
     {
       "id": 2,
@@ -122,9 +122,9 @@
       "question": {
         "title": "Erro ao concatenar strings",
         "body": "Não estou conseguindo juntar strings de maneira correta... Fica tudo junto, sem espaço e não entendo o porquê. ",
-        "likes": [{ "userId": 6 }, { "userId": 12 }],
-        "tags": ["JS"]
-      }
+        "likes": [{ "userId": 6 }, { "userId": 12 }]
+      },
+      "tags": ["JS"]
     },
     {
       "id": 3,
@@ -144,9 +144,9 @@
           { "userId": 13 },
           { "userId": 10 },
           { "userId": 8 }
-        ],
-        "tags": ["JS", "React"]
-      }
+        ]
+      },
+      "tags": ["JS", "React"]
     },
     {
       "id": 4,
@@ -161,9 +161,9 @@
       "question": {
         "title": ".toFixed()",
         "body": "Está retornado NAN quando eu tento ultilizar o .toFixed(). Já tentei virar meu código de ponta cabeça mas parece não funcionar.",
-        "likes": [],
-        "tags": ["JS"]
-      }
+        "likes": []
+      },
+      "tags": ["JS"]
     },
     {
       "id": 5,
@@ -178,9 +178,9 @@
       "question": {
         "title": "For loop não está funcionando como esperado",
         "body": "Preciso fazer um loop, mas quando executo o código, ele da crash na minha aplicação. meu for loop: For(let i = 10; i >= 13, i++) {código do loop}",
-        "likes": [{ "userId": 1 }, { "userId": 4 }, { "userId": 6 }],
-        "tags": ["JS"]
-      }
+        "likes": [{ "userId": 1 }, { "userId": 4 }, { "userId": 6 }]
+      },
+      "tags": ["JS"]
     },
     {
       "id": 6,
@@ -189,9 +189,9 @@
       "question": {
         "title": "Para que serve o with no Python?",
         "body": "Estou estudando Python e me deparei com esse with. Conheço ele do JavaScript. Porém, não sei como ele funciona no Python.",
-        "likes": [{ "userId": 8 }, { "userId": 14 }],
-        "tags": ["PYTHON"]
-      }
+        "likes": [{ "userId": 8 }, { "userId": 14 }]
+      },
+      "tags": ["PYTHON"]
     },
     {
       "id": 7,
@@ -212,9 +212,9 @@
           { "userId": 11 },
           { "userId": 7 },
           { "userId": 6 }
-        ],
-        "tags": ["JS", "REACT"]
-      }
+        ]
+      },
+      "tags": ["JS", "REACT"]
     }
   ],
   "answers": [
