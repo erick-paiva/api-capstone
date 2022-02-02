@@ -233,6 +233,7 @@
       "body": "reduce(executa uma logica de redução: mais complexo, mas bem util) Exemplo const array = [{produto”celular”,preco:“300,00”, produto:“notebook”,preco:“1000,00”}] const reduceNoArray = array.reduce((acc,atual) => acc + atual.preco,0) reduceNoArray é : 1300 Explicando: acc (Acumulador) => toda vez que passa sempre pega o valor que tem, mais a logica da função na frente(esta=>acc+atual), ele começa com o primeiro objeto do array, por isso colocamos um 0 de da “,” => falo para iniciar com zero e pegar o proximo(o atual, que na primeira vez é o segundo objeto) atual será será sempre o proximo index do array(neste caso, na primeira vez seria o {produto:notebook …}"
     },
     {
+      "id": 2,
       "userId": 2,
       "postId": 1,
       "date": {
@@ -246,6 +247,7 @@
       "body": "Provavelmente, você está tentando somar os números corretamente, porém, eles podem estar sendo enviados ao seu reduce como string. Uma meneira de resolver seria usar 'Number()' passando seu número como parâmetro."
     },
     {
+      "id": 3,
       "userId": 2,
       "postId": 2,
       "date": { "day": 8, "month": 5, "year": 2024, "hour": 11, "minutes": 22 },
@@ -253,6 +255,7 @@
       "body": "Você pode resolver isso usando let a = string; let b = string2; let c = a +  + b assim você irá colocar um espaço dentre as palavras. Se precisar fazer isso várias vezes, aconselho implementar um loop for no seu código para automatizar o processo. Aconselho também ver o método .join()"
     },
     {
+      "id": 4,
       "userId": 2,
       "postId": 3,
       "date": {
@@ -266,6 +269,7 @@
       "body": "Realmente, não é muuuita diferença entre os dois. A tag <a> você pode usar para ter um impacto visual entre uma página e outra. Já o useHistory, ao contrário da tag <a>, não recarrega a página quando você utiliza ele para acionar um recurso ou navegar dentro de um dashboard de uma web page. Tente não ultilizar só um deles, pois tem um equilíbrio que precisamos fazer entre os dois para que a página fique dinâmica. Bons estudos!"
     },
     {
+      "id": 5,
       "userId": 2,
       "postId": 4,
       "date": {
@@ -279,6 +283,7 @@
       "body": "Olá, tudo certo? Acho0 que es precisaria dar uma olhada no seu código. Antes disso, dê uma checada no seu código pra ver se está indo um número mesmo pra passar pelo seu toFixed. Às vezes a sua variável pode estar no escopo errado. Me chame no Slack pra ver qual seria o problema se essa checagem der errado."
     },
     {
+      "id": 6,
       "userId": 2,
       "postId": 5,
       "date": {
@@ -292,6 +297,7 @@
       "body": "Primeiramente, a sintaxe do For Loop é importante de se sabe, logo: for(let i = 0; i < 5; i++) {bloco de código}. Você possui três declarações. a primeira é executada uma vez apenas, a segunda é uma verificação e se for true, o bloco de código será executado, caso contrário o loop será interrompido e o resto do código que fica após o loop será executado. e a terceira declaração será executada sempre que o bloco de código for executado com êxito, assim voltando para a verificação da segunda declaração. Devemos tomar cuidado para não fazer um loop infinito, então sempre fique atento à segunda declaração."
     },
     {
+      "id": 7,
       "userId": 2,
       "postId": 6,
       "date": {
@@ -305,6 +311,7 @@
       "body": "O with pode te poupar algumas linhas de código quando você estiver escrevendo uma aplicação. Nesse link, https://www.geeksforgeeks.org/with-statement-in-python/, você vai poder se aprofundar mais no uso dele. Qualquer coisa, só chamar no Slack."
     },
     {
+      "id": 8,
       "userId": 2,
       "postId": 7,
       "date": {
@@ -320,6 +327,7 @@
   ],
   "comments": [
     {
+      "id": 1,
       "userId": 4,
       "postId": 1,
       "date": {
@@ -332,6 +340,7 @@
       "comment": "explicaçao ta show demais, funcionou certinho. Vou ate dar like!"
     },
     {
+      "id": 2,
       "userId": 3,
       "postId": 1,
       "date": {
@@ -344,6 +353,7 @@
       "comment": "Eu estava com a mesma dúvida aqui. Funcionou muito bem e resolveu meu impedimento."
     },
     {
+      "id": 3,
       "userId": 5,
       "postId": 1,
       "date": {
@@ -356,6 +366,7 @@
       "comment": "realmente, esse que era o problema. Depois de muito bate a cabeça no código, tudo resolvido e posso seguir com a estilização da minha aplicação. Muito obreigado!!"
     },
     {
+      "id": 4,
       "userId": 6,
       "postId": 2,
       "date": {
@@ -368,6 +379,7 @@
       "comment": "Possuo o mesmo tipo de dúvida. Up"
     },
     {
+      "id": 5,
       "userId": 1,
       "postId": 2,
       "date": {
@@ -380,6 +392,7 @@
       "comment": "Espera alguém ver sua pergunta aqui, mas acho que é só concatenar com um espaço entre as palavras mesmo."
     },
     {
+      "id": 6,
       "userId": 3,
       "postId": 2,
       "date": {
@@ -392,6 +405,7 @@
       "comment": "Resolvido. Agora preciso aprender a usar o .join(). Parece ser mais simples. Obrigado!"
     },
     {
+      "id": 7,
       "userId": 4,
       "postId": 3,
       "date": {
@@ -404,6 +418,7 @@
       "comment": "Boa pergunta. Eu estava pensando na mesma coisa há dias e sem chegar a uma conclusão. Afinal, eles fazem praticamente a mesma coisa, não é?"
     },
     {
+      "id": 8,
       "userId": 3,
       "postId": 3,
       "date": {
@@ -416,6 +431,7 @@
       "comment": "Talvez seja isso mesmo... Programação é uma área de muitos updates e tudo pode virar de ponta cabeça da noite pro dia. Mas ainda acho que deve ter alguma ultilidade pois as biblioteca UI têm substituições para as tags <a>. Não vejo o porquê de não ser uma opção viável."
     },
     {
+      "id": 9,
       "userId": 5,
       "postId": 3,
       "date": {
@@ -428,6 +444,7 @@
       "comment": "Acho que você está certo. mas sei lá né... 40 jeitos de sair de uma página e ir pra outra hahaha. vamos ver o que o coach diz"
     },
     {
+      "id": 10,
       "userId": 6,
       "postId": 3,
       "date": {
@@ -440,6 +457,7 @@
       "comment": "Boa pergunta. Eu estava pensando na mesma coisa há dias e sem chegar a uma conclusão. Afinal, eles fazem praticamente a mesma coisa, não é?"
     },
     {
+      "id": 11,
       "userId": 2,
       "postId": 3,
       "date": {
@@ -452,18 +470,21 @@
       "comment": "Se não me engano, tem bem pouca difença entre os dois. Eu uso os dois quando me convém"
     },
     {
+      "id": 12,
       "userId": 6,
       "postId": 5,
       "date": { "day": 9, "month": 5, "year": 2022, "hour": 15, "minutes": 19 },
       "comment": "Também estou tendo um pouco de dificuldades com o For Loop. Eu estou usando o While, pois foi mais fácil de eu entender, mas acho que preciso saber como seu utiliza. Como estão frisando bastante a importância do For Loop e também a quantidade de exercícios que pedem isso no Codewars é considerável, creio que será importante saber o uso correto."
     },
     {
+      "id": 13,
       "userId": 1,
       "postId": 5,
       "date": { "day": 9, "month": 5, "year": 2022, "hour": 15, "minutes": 19 },
       "comment": "Eu ainda nem encostei no While hahaha. Deixa isso pra outra hora."
     },
     {
+      "id": 14,
       "userId": 3,
       "postId": 5,
       "date": {
@@ -476,6 +497,7 @@
       "comment": "Muito obrigado! Explicação show!!"
     },
     {
+      "id": 15,
       "userId": 3,
       "postId": 6,
       "date": {
@@ -488,6 +510,7 @@
       "comment": "Isso mesmo que eu precisava. Esse link me mostra bem o que eu estava com dúvida. Muito obrigado!"
     },
     {
+      "id": 16,
       "userId": 5,
       "postId": 7,
       "date": {
