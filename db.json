@@ -80,7 +80,7 @@
       },
       "question": {
         "title": "Erro no reduce",
-        "body": "eu tente somar o total do meu carrinho na entrega X, mas da um erro no console chamado NAN",
+        "body": "eu tente somar o total do meu carrinho na entrega X, mas dá um erro no console chamado NAN",
         "likes": [
           {
             "userId": 1
@@ -121,7 +121,7 @@
       },
       "question": {
         "title": "Erro ao concatenar strings",
-        "body": "Não estou conseguindo juntar strings de maneira correta! Fica tudo junto, sem espaço e não entendo o porquê. ",
+        "body": "Não estou conseguindo juntar strings de maneira correta... Fica tudo junto, sem espaço e não entendo o porquê. ",
         "likes": [{ "userId": 6 }, { "userId": 12 }],
         "tags": ["JS"]
       }
