@@ -88,9 +88,9 @@
           {
             "userId": 3
           }
-        ],
-        "tags": ["JS", "REACT", "LINUX", "NODE JS"]
-      }
+        ]
+      },
+      "tags": ["JS", "REACT", "LINUX", "NODE JS"]
     },
     {
       "id": 1,
