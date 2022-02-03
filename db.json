@@ -2,10 +2,10 @@
   "users": [
     {
       "id": 1,
-      "email": "alunokenzie@gmail.com",
-      "coach": false,
+      "email": "arthurpeixoto@gmail.com",
+      "coach": true,
       "password": "$2a$10$odrMlnvYvWZHHJ2Rv2f/iOq1ZPcaEi5jc3Hs23b7TYVU0IbFNyRRm",
-      "name": "Arthur",
+      "name": "Arthur Peixoto",
       "module": "M2",
       "image": "https://ca.slack-edge.com/TQZR39SET-U028GJU67CJ-88feb90e3ab9-72",
       "slack": "ada",
@@ -13,10 +13,10 @@
     },
     {
       "id": 2,
-      "email": "coachkenzie@gmail.com",
+      "email": "123skatesk8@gmail.com",
       "coach": true,
       "password": "$2a$10$odrMlnvYvWZHHJ2Rv2f/iOq1ZPcaEi5jc3Hs23b7TYVU0IbFNyRRm",
-      "name": "Erick",
+      "name": "Erick Paiva",
       "module": "Q3",
       "image": "https://ca.slack-edge.com/TQZR39SET-U0279QYHPPS-d55775c9edb8-512",
       "slack": "ada",
@@ -24,7 +24,7 @@
     },
     {
       "id": 2,
-      "email": "coachkenzie2@gmail.com",
+      "email": "coachkenzie@gmail.com",
       "coach": true,
       "password": "$2a$10$odrMlnvYvWZHHJ2Rv2f/iOq1ZPcaEi5jc3Hs23b7TYVU0IbFNyRRm",
       "name": "Eduardo",
