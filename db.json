@@ -5,9 +5,9 @@
       "email": "alunokenzie@gmail.com",
       "coach": false,
       "password": "$2a$10$odrMlnvYvWZHHJ2Rv2f/iOq1ZPcaEi5jc3Hs23b7TYVU0IbFNyRRm",
-      "name": "Kenziano Peixoto",
+      "name": "Arthur",
       "module": "M2",
-      "image": "https://userstock.io/data/wp-content/uploads/2017/07/tanja-heffner-155367-1024x736.jpg",
+      "image": "https://ca.slack-edge.com/TQZR39SET-U028GJU67CJ-88feb90e3ab9-72",
       "slack": "ada",
       "linkedin": "linkedin.com"
     },
@@ -16,7 +16,40 @@
       "email": "coachkenzie@gmail.com",
       "coach": true,
       "password": "$2a$10$odrMlnvYvWZHHJ2Rv2f/iOq1ZPcaEi5jc3Hs23b7TYVU0IbFNyRRm",
-      "name": "Kenzinho Araújo",
+      "name": "Erick",
+      "module": "Q3",
+      "image": "https://ca.slack-edge.com/TQZR39SET-U0279QYHPPS-d55775c9edb8-512",
+      "slack": "ada",
+      "linkedin": "linkedin.com"
+    },
+    {
+      "id": 2,
+      "email": "coachkenzie2@gmail.com",
+      "coach": true,
+      "password": "$2a$10$odrMlnvYvWZHHJ2Rv2f/iOq1ZPcaEi5jc3Hs23b7TYVU0IbFNyRRm",
+      "name": "Eduardo",
+      "module": "Q3",
+      "image": "https://userstock.io/data/wp-content/uploads/2020/05/imansyah-muhamad-putera-n4KewLKFOZw-1024x1024.jpg",
+      "slack": "ada",
+      "linkedin": "linkedin.com"
+    },
+    {
+      "id": 2,
+      "email": "coachkenzie3@gmail.com",
+      "coach": true,
+      "password": "$2a$10$odrMlnvYvWZHHJ2Rv2f/iOq1ZPcaEi5jc3Hs23b7TYVU0IbFNyRRm",
+      "name": "Christian",
+      "module": "Q3",
+      "image": "https://userstock.io/data/wp-content/uploads/2020/05/imansyah-muhamad-putera-n4KewLKFOZw-1024x1024.jpg",
+      "slack": "ada",
+      "linkedin": "linkedin.com"
+    },
+    {
+      "id": 2,
+      "email": "coachkenzie4@gmail.com",
+      "coach": true,
+      "password": "$2a$10$odrMlnvYvWZHHJ2Rv2f/iOq1ZPcaEi5jc3Hs23b7TYVU0IbFNyRRm",
+      "name": "Flávio",
       "module": "Q3",
       "image": "https://userstock.io/data/wp-content/uploads/2020/05/imansyah-muhamad-putera-n4KewLKFOZw-1024x1024.jpg",
       "slack": "ada",
@@ -65,6 +98,50 @@
       "image": "https://userstock.io/data/wp-content/uploads/2017/07/kelly-searle-209751-1024x679.jpg",
       "slack": "ada",
       "linkedin": "linkedin.com"
+    },
+    {
+      "id": 6,
+      "email": "alunokenzie6@gmail.com",
+      "coach": false,
+      "password": "$2a$10$odrMlnvYvWZHHJ2Rv2f/iOq1ZPcaEi5jc3Hs23b7TYVU0IbFNyRRm",
+      "name": "Airton",
+      "module": "M2",
+      "image": "https://ca.slack-edge.com/TQZR39SET-U01U7JQT0LC-fb4cd6e83eb0-512",
+      "slack": "ada",
+      "linkedin": "linkedin.com"
+    },
+    {
+      "id": 6,
+      "email": "alunokenzie7@gmail.com",
+      "coach": false,
+      "password": "$2a$10$odrMlnvYvWZHHJ2Rv2f/iOq1ZPcaEi5jc3Hs23b7TYVU0IbFNyRRm",
+      "name": "Mateus",
+      "module": "M2",
+      "image": "https://ca.slack-edge.com/TQZR39SET-U023CNEA5PX-39a395e12f8f-512",
+      "slack": "ada",
+      "linkedin": "linkedin.com"
+    },
+    {
+      "id": 6,
+      "email": "alunokenzie8@gmail.com",
+      "coach": false,
+      "password": "$2a$10$odrMlnvYvWZHHJ2Rv2f/iOq1ZPcaEi5jc3Hs23b7TYVU0IbFNyRRm",
+      "name": "Julio",
+      "module": "M2",
+      "image": "https://ca.slack-edge.com/TQZR39SET-U0253A2P8JW-747b47ef2202-512",
+      "slack": "ada",
+      "linkedin": "linkedin.com"
+    },
+    {
+      "id": 6,
+      "email": "alunokenzie9@gmail.com",
+      "coach": false,
+      "password": "$2a$10$odrMlnvYvWZHHJ2Rv2f/iOq1ZPcaEi5jc3Hs23b7TYVU0IbFNyRRm",
+      "name": "Rhamon",
+      "module": "M2",
+      "image": "https://ca.slack-edge.com/TQZR39SET-U0245K39LDN-6d6135d241ce-512",
+      "slack": "ada",
+      "linkedin": "linkedin.com"
     }
   ],
   "questions": [
@@ -90,7 +167,7 @@
           }
         ]
       },
-      "tags": ["JS", "REACT", "LINUX", "NODE JS"]
+      "tags": ["JAVASCRIPT", "REACT", "LINUX", "NODE"]
     },
     {
       "id": 2,
@@ -107,7 +184,7 @@
         "body": "eu tente somar o total do meu carrinho na entrega 2A14, mas da um erro no console chamado NAN",
         "likes": [{ "userId": 11 }, { "userId": 13 }]
       },
-      "tags": ["JS", "REACT", "NODE JS"]
+      "tags": ["JAVASCRIPT", "REACT", "NODE"]
     },
     {
       "id": 3,
@@ -124,7 +201,7 @@
         "body": "Não estou conseguindo juntar strings de maneira correta... Fica tudo junto, sem espaço e não entendo o porquê. ",
         "likes": [{ "userId": 6 }, { "userId": 12 }]
       },
-      "tags": ["JS"]
+      "tags": ["JAVASCRIPT"]
     },
     {
       "id": 4,
@@ -146,7 +223,7 @@
           { "userId": 8 }
         ]
       },
-      "tags": ["JS", "REACT"]
+      "tags": ["JAVASCRIPT", "REACT"]
     },
     {
       "id": 5,
@@ -163,7 +240,7 @@
         "body": "Está retornado NAN quando eu tento ultilizar o .toFixed(). Já tentei virar meu código de ponta cabeça mas parece não funcionar.",
         "likes": []
       },
-      "tags": ["JS"]
+      "tags": ["JAVASCRIPT"]
     },
     {
       "id": 6,
@@ -180,7 +257,7 @@
         "body": "Preciso fazer um loop, mas quando executo o código, ele da crash na minha aplicação. meu for loop: For(let i = 10; i >= 13, i++) {código do loop}",
         "likes": [{ "userId": 1 }, { "userId": 4 }, { "userId": 6 }]
       },
-      "tags": ["JS"]
+      "tags": ["JAVASCRIPT"]
     },
     {
       "id": 7,
@@ -214,7 +291,7 @@
           { "userId": 6 }
         ]
       },
-      "tags": ["JS", "REACT"]
+      "tags": ["JAVASCRIPT", "REACT"]
     }
   ],
   "answers": [
