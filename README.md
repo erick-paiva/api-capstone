@@ -1,5 +1,5 @@
  
-<img src="https://kenzie.com.br/images/logoblue.svg" width="200px" />}>
+<img src="https://kenzie.com.br/images/logoblue.svg" width="200px" />
 
 # Entrega CAPSTONE
 
