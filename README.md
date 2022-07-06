@@ -9,7 +9,7 @@ A api tem um total de **“12”** Endpoints, criada para plataforma onde os usu
 
 **O url base da API:**
 
- [https://caps-stone-api.herokuapp.com](https://caps-stone-api.herokuapp.com/)
+ [https://api-stack-kenzie.herokuapp.com](https://api-stack-kenzie.herokuapp.com)
 
 **Os endpoints estão mockados com dados fictícios:**
 
